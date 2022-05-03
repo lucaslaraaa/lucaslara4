@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leilões Oline</title>
+    <link rel="shortcut icon" href="imagens/leiloes1.png">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <!-- Aqui fica o cabeçalho da home -->
+        <nav>
+        <a href="index.html">Página inicial</a> |
+        <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Aqui fica o conteúdo principal da home -->
+        <h1>Faça o login para dar seu lance!</h1>
+        <style>
+            body {
+            margin: 10;
+            color: rgb(19, 22, 204);
+            background: rgb(223, 219, 219)
+
+        }
+
+        .btn-login {
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 400;
+            max-width: 160px;
+            text-decoration: none;
+            text-transform: uppercase;
+            vertical-align: middle;
+            width: 100%;
+            padding: 0;
+            background: #2C82C9;
+            display: block;
+            line-height: 30px;
+            margin: 20px auto 40px auto;
+            position: sticky;
+         }
+
+        #form-login {
+            margin-left: 0%;
+        }
+
+        #form-login .form-group {
+            margin-top: 20px;
+        }
+
+        #form-login .form-group input {
+            height: 30px;
+            background-color: rgba(255, 255, 255, 0.37);
+            color: black;
+            font-size: 15px;
+        }
+
+        #form-login .form-group .btn-login {
+            margin: 0%;
+
+        
+        }
+    </style>
+    </main>
+    <form id="form-login" class="form-horizontal" method="POST">
+        <div class="form-group">
+            <label for="deslogin" class="col-sm-2 control-label">LOGIN</label>
+            <div class="col-sm-7 col-md-4">
+                <input type="text" class="form-control" id="deslogin" placeholder="Digite seu usuário">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="dessenhalogin" class="col-sm-2 control-label">SENHA</label>
+            <div class="col-sm-7 col-md-4">
+                <input type="password" class="form-control" id="dessenhalogi" placeholder="Digite sua senha">
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-sm-offset-2 col-md-offset-2">
+            <button type="submit" class="btn btn-login">FAZER LOGIN</button>
+        </div>
+    </form>
+</body>
+</html>
